@@ -1,19 +1,22 @@
 {
-  "name": "package-development-worona",
+  "name": "general-fbia-extension-worona",
   "version": "1.0.0",
-  "description": "Boilerplate to create Worona packages",
+  "description": "Facebook instant articles general page",
   "scripts": {
     "start": "node node_modules/worona-packages/dist/start.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/worona/package-development-worona.git"
+    "url": "git+https://github.com/worona/general-fbia-extension-worona.git"
   },
   "keywords": [
+    "Facebook",
+    "instant",
+    "articles",
     "worona",
     "package"
   ],
-  "author": "",
+  "author": "abel@worona.org",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -22,6 +25,38 @@
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
+    "vendors-dashboard-worona": "1.3.2",
     "worona-packages": "1.3.8"
+  },
+  "bugs": {
+    "url": "https://github.com/worona/general-fbia-extension-worona/issues"
+  },
+  "homepage": "https://github.com/worona/general-fbia-extension-worona#readme",
+  "worona": {
+    "authors": [
+      "abel@worona.org"
+    ],
+    "private": false,
+    "dashboard": {
+      "type": "extension",
+      "namespace": "generalFbia",
+      "default": true,
+      "menu": {
+        "fbia": {
+          "name": "General",
+          "category": "General",
+          "order": 1
+        }
+      }
+    },
+    "fbia": {
+      "type": "extension",
+      "namespace": "generalFbia",
+      "default": true,
+      "name": "General Settings",
+      "description": "General Settings for Facebook Instant Articles",
+      "image": "",
+      "listed": true
+    }
   }
 }
