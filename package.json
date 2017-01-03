@@ -43,7 +43,7 @@
       "default": true,
       "menu": {
         "fbia": {
-          "name": "General",
+          "niceName": "General",
           "category": "General",
           "order": 1
         }
