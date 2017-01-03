@@ -1,6 +1,6 @@
 {
   "name": "general-fbia-extension-worona",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Facebook instant articles general page",
   "scripts": {
     "start": "node node_modules/worona-packages/dist/start.js"
