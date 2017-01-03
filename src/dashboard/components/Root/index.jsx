@@ -19,8 +19,8 @@ const Fbia = () => (
                 We are working to integrate more channels so you can distribute your content easily on mobile.
                 <br /><br />
                 If you want to learn more
+                about Facebook Instant Articles you can take a look to their <a target="_blank" rel="noopener noreferrer" href="https://instantarticles.fb.com">official site</a>,&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://instantarticles.fb.com/faqs/">the FAQs</a> or their <a href="https://instantarticles.fb.com/getting-started/" rel="noopener noreferrer" target="_blank">Getting started</a> guide.
-                about Facebook Instant Articles you can take a look to their <a target="_blank" rel="noopener noreferrer" href="https://instantarticles.fb.com">official site</a>,
                 <br /><br /><br />
                 <p className="control">
                   <label className="checkbox" htmlFor="notifyMeFbia">
