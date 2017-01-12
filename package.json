@@ -36,15 +36,13 @@
     "authors": [
       "abel@worona.org"
     ],
-    "private": false,
     "dashboard": {
       "type": "extension",
       "namespace": "generalFbia",
-      "default": true,
       "menu": {
         "fbia": {
           "niceName": "General",
-          "category": "General",
+          "category": "Settings",
           "order": 1
         }
       }
